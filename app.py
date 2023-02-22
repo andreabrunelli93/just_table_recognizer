@@ -6,11 +6,7 @@ from PIL import Image
 import pandas as pd 
 
 # import libraries
-import os
 import streamlit as st
-from azure.ai.formrecognizer import DocumentAnalysisClient
-from azure.core.credentials import AzureKeyCredential
-from azure.core.serialization import AzureJSONEncoder
 
 from functions import format_bounding_region, format_polygon, dict_to_df, analyze_general_documents
 st.image("https://upload.wikimedia.org/wikipedia/commons/f/f0/Logo_Just.svg", width=150)
