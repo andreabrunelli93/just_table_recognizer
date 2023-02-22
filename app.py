@@ -8,7 +8,7 @@ import pandas as pd
 # import libraries
 import streamlit as st
 
-from functions import format_bounding_region, format_polygon, dict_to_df, analyze_general_documents
+from functions import dict_to_df, analyze_general_documents
 st.image("https://upload.wikimedia.org/wikipedia/commons/f/f0/Logo_Just.svg", width=150)
 st.title('Just Table Recognizer')
 
